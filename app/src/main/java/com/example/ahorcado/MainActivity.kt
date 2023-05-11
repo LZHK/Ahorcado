@@ -79,7 +79,7 @@ class MainActivity : AppCompatActivity() {
                         !tvLetra4.text.toString().trim().isEmpty()
                 ){
                     tvResultado.text = "GANASTE"
-                    tvResultado.setTextColor(Color.BLACK)
+                    tvResultado.setTextColor(Color.GREEN)
                     btnVerificar.setBackgroundColor(ContextCompat.getColor(this,R.color.gris))
                     btnVerificar.isEnabled = false
                 }
