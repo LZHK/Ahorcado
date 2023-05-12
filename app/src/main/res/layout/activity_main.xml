@@ -6,10 +6,21 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="430dp"
+        android:layout_height="747dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/a1" />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        app:layout_constraintTop_toTopOf="parent">
 
         <EditText
             android:id="@+id/edtLetra"
@@ -21,7 +32,7 @@
             android:layout_marginBottom="15dp"
             android:ems="10"
             android:hint="Escriba una letra"
-            android:inputType="textPersonName"/>
+            android:inputType="textPersonName" />
 
         <LinearLayout
             android:layout_width="match_parent"
